@@ -79,14 +79,17 @@
 
   text-decoration: none;
 }
-.header-contact:active,:hover
-{
+
+
+
+.header-contact:hover {
   color: #2196f3;
 }
-.header-mailto:active,:hover
-{
+
+.header-mailto:hover {
   color: #757575;
 }
+
 
 /*---MAIN---*/
 
@@ -296,7 +299,7 @@
   color: #2196F3;
 }
 
-.footer-nav-mailto :current{
+.footer-nav-mailto :current {
   color: #2196F3;
 }
 
