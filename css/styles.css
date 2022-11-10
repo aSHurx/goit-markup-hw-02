@@ -55,6 +55,7 @@ body {
 
 .contacts {
   list-style: none;
+  font-style: normal;
 }
 
 .contact {
@@ -235,11 +236,12 @@ body {
 
 .footer-nav {
   list-style: none;
+  
 
 }
 
 .footer-nav-adress {
-
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
