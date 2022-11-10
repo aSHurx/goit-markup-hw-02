@@ -1,5 +1,8 @@
+/* ---Studio---*/
+
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 /*-----HEADER-----*/
@@ -20,7 +23,7 @@ body {
 
 .text-studio {
 
-  font-weight: 700;
+  
   font-size: 26px;
   line-height: 1.1923;
   color: #000;
@@ -91,7 +94,7 @@ body {
 
 /*---MAIN---*/
 
-/*Hero*/
+/*HERO*/
 
 .hero {
   background-color: #2f303a;
@@ -110,8 +113,8 @@ body {
 }
 
 .hero-btm {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  
+  
   font-size: 16px;
   line-height: 1.875;
 
@@ -135,7 +138,6 @@ body {
 
 .strongsides h3 {
 
-  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -162,7 +164,7 @@ body {
 
 .title-activites {
 
-  font-weight: 700;
+  
   font-size: 36px;
   line-height: 1.1666;
 
@@ -175,11 +177,11 @@ body {
   list-style: none;
 }
 
-/*our team*/
+/*____our team_____*/
 
 .title-team {
 
-  font-weight: 700;
+  
   font-size: 36px;
   line-height: 1.1666;
 
@@ -269,7 +271,7 @@ body {
 
 
 
-/*----------PORTFOLIO-----------------*/
+/*---------------PORTFOLIO-----------------*/
 
 /*---Maine---*/
 
