@@ -1,8 +1,9 @@
 /* ---Studio---*/
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+ font-family: "Roboto", sans-serif;
+ font-weight: 700;
+ margin: 0;
 }
 
 /*-----HEADER-----*/
@@ -10,341 +11,348 @@ body {
 /* Logo */
 
 .conteiner {
-  display: flex;
-  align-items: center;
+ display: flex;
+ align-items: center;
 }
 .navigation {
-  margin: auto;
+ margin: auto;
 }
 .logo {
-  color: #000;
+ color: #000;
 
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1923;
-  color: #2196f3;
-  text-decoration: none;
-  padding-left: 215px;
+ font-family: "Raleway";
+ font-style: normal;
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 1.1923;
+ color: #2196f3;
+ text-decoration: none;
+ padding-left: 215px;
 }
 
 .text-studio {
-
-  
-  font-size: 26px;
-  line-height: 1.1923;
-  color: #000;
+ font-size: 26px;
+ line-height: 1.1923;
+ color: #000;
 }
 
 /* Navigation */
 
 .header-nav {
-  list-style: none;
-  display: flex;
-  gap: 50px;
+ list-style: none;
+ display: flex;
+ gap: 50px;
 }
 
-
 .header-nav a {
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1428;
-  color: #212121;
-  text-decoration: none;
- 
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.1428;
+ color: #212121;
+ text-decoration: none;
 }
 
 .header-nav-links:hover,
 .header-nav-links:focus,
 .header-nav-links.current {
-  color: #2196f3;
+ color: #2196f3;
 }
 
 .header-nav-links:active {
-  color: #000;
+ color: #000;
 }
 
 /* Header Contacts */
 
 .contacts {
-  list-style: none;
-  font-style: normal;
-  display: flex;
+ list-style: none;
+ font-style: normal;
+ display: flex;
 }
 
 .contact {
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.1428x;
+ letter-spacing: 0.02em;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1428x;
-  letter-spacing: 0.02em;
+ color: #757575;
 
-  color: #757575;
-
-  text-decoration: none;
-  margin-left: 50px;
-  padding-right: 215px;
+ text-decoration: none;
+ margin-left: 50px;
+ padding-right: 215px;
+ padding-left: 215px;
 }
 
 .mailto {
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.1428;
+ letter-spacing: 0.02em;
+ color: #757575;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1428;
-  letter-spacing: 0.02em;
-  color: #757575;
-
-  text-decoration: none;
+ text-decoration: none;
 }
 
 .contact:hover {
-  color: #2196f3;
+ color: #2196f3;
 }
 
 .mailto:hover {
-  color: #2196f3;
+ color: #2196f3;
 }
 
 /*---MAIN---*/
 
+
+
 /*HERO*/
 
 .hero {
-  background-color: #2f303a;
+ background-color: #2f303a;
+ 
+ 
+ width: 1600px;
+ height: 600px;
+ 
+
 }
 
 .hero-title {
+ font-weight: 900;
+ font-size: 44px;
+ line-height: 1.3636;
+  
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.3636;
+ letter-spacing: 0.06em;
+ text-transform: uppercase;
 
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+ color: #ffffff;
+ padding-left: 452px;
+ padding-right: 452px;
+ padding-top: 200px;
+ 
+ text-align: center;
 
-  color: #ffffff;
+ 
 }
 
 .hero-btm {
-  
-  
-  font-size: 16px;
-  line-height: 1.875;
+ font-size: 16px;
+ line-height: 1.875;
+ 
 
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
+ 
+ align-items: center;
+ text-align: center;
+ letter-spacing: 0.06em;
 
-  color: #ffffff;
+ color: #ffffff;
 
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
+ background: #2196f3;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+ border-radius: 4px;
+ cursor: pointer;
+ margin-left: 692px;
+ width: 216px;
+ height: 50px;
+ 
+ 
+ 
+
+
 }
+
 
 /*our strong sides*/
-
-.strongsides {
+.strongsides{
   list-style: none;
+  padding-top: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
+  display: flex;
+  
+  gap: 30px;
 }
 
+
+
 .strongsides h3 {
+ font-size: 14px;
+ line-height: 16px;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
 
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: #212121;
+ color: #212121;
 }
 
 .strongsides p {
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 1.7142;
 
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7142;
+ letter-spacing: 0.03em;
 
-  letter-spacing: 0.03em;
-
-  color: #757575;
+ color: #757575;
 }
 .strongsides-title:hover {
-  color: #2196f3
-  
+ color: #2196f3;
 }
 /*our activities*/
+.activites {
+
+}
 
 .title-activites {
+ font-size: 36px;
+ line-height: 1.1666;
 
-  
-  font-size: 36px;
-  line-height: 1.1666;
+ letter-spacing: 0.03em;
 
-  letter-spacing: 0.03em;
-
-  color: #212121;
+ color: #212121;
+ text-align: center;
+ padding-top: 118px;
+ padding-bottom: 50px;
 }
 
 .pictures-activites {
-  list-style: none;
+ list-style: none;
+ display: flex;
+ gap: 30px;
+ margin-right: 215px;
 }
 
 /*____our team_____*/
 
 .title-team {
+ font-size: 36px;
+ line-height: 1.1666;
 
-  
-  font-size: 36px;
-  line-height: 1.1666;
+ letter-spacing: 0.03em;
 
-  letter-spacing: 0.03em;
-
-  color: #212121;
+ color: #212121;
 }
 
 .list-team {
-  list-style: none;
+ list-style: none;
 }
 
 .list-team h3 {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.1875;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.1875;
+ letter-spacing: 0.03em;
 
-  letter-spacing: 0.03em;
-
-  color: #212121;
+ color: #212121;
 }
 
 .list-team p {
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.1875;
 
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.1875;
+ letter-spacing: 0.03em;
 
-  letter-spacing: 0.03em;
-
-  color: #757575;
-
+ color: #757575;
 }
-.igor:hover, 
+.igor:hover,
 .olga:hover,
 .mykola:hover,
-.myhailo:hover
-{
-  color: #2196f3
-  
+.myhailo:hover {
+ color: #2196f3;
 }
 
 /*----FOOTER----*/
 
 .footer {
-  background-color: #2f303a;
+ background-color: #2f303a;
 }
 
 .footer-logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1923;
+ font-family: "Raleway";
+ font-style: normal;
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 1.1923;
 
-  letter-spacing: 0.03em;
+ letter-spacing: 0.03em;
 
-
-  color: #2196f3;
+ color: #2196f3;
 }
 
 .footer-text-studio {
-  color: #ffffff;
+ color: #ffffff;
 }
 
 .footer-nav {
-  list-style: none;
-  
-
+ list-style: none;
 }
 
 .footer-nav-adress {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 1.714;
 
-  letter-spacing: 0.03em;
+ letter-spacing: 0.03em;
 
-  color: #ffffff;
-  text-decoration: none;
+ color: #ffffff;
+ text-decoration: none;
 }
-
-
-
-
-
 
 /*---------------PORTFOLIO-----------------*/
 
 /*---Maine---*/
 
-
-
 .portfolio-nav {
-  list-style: none;
-  display: flex;
+ list-style: none;
+ display: flex;
 }
 
 .portfolio-nav-btn {
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  letter-spacing: 0.03em;
-  color: #212121;
-  background: #f5f4fa;
+ text-decoration: none;
+ font-family: "Roboto", sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.625;
+ letter-spacing: 0.03em;
+ color: #212121;
+ background: #f5f4fa;
 }
 
 .portfolio-nav-btn:hover,
 .portfolio-nav-btn:focus {
-  color: #ffffff;
-  background: #2196f3;
+ color: #ffffff;
+ background: #2196f3;
 }
 
 .portfolio-nav-btn:active {
-  color: #ffffff;
+ color: #ffffff;
 }
 
 .portfolio-list-photo {
-  list-style: none;
-  
+ list-style: none;
 }
 
 .portfolio-list-photo h3 {
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 2;
+ letter-spacing: 0.06em;
 
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-
-  color: #212121;
+ color: #212121;
 }
 
 .portfolio-list-photo p {
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.6666;
 
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.6666;
+ letter-spacing: 0.03em;
 
-  letter-spacing: 0.03em;
-
-  color: #757575;
+ color: #757575;
 }
 .portfolio-titles:hover {
-  color: #2196f3;;
-
+ color: #2196f3;
 }
