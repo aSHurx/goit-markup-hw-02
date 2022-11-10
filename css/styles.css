@@ -154,7 +154,10 @@ body {
 
   color: #757575;
 }
-
+.strongsides-title:hover {
+  color: #2196f3
+  
+}
 /*our activities*/
 
 .title-activites {
@@ -209,6 +212,15 @@ body {
   letter-spacing: 0.03em;
 
   color: #757575;
+
+}
+.igor:hover, 
+.olga:hover,
+.mykola:hover,
+.myhailo:hover
+{
+  color: #2196f3
+  
 }
 
 /*----FOOTER----*/
