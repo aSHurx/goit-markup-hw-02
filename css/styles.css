@@ -9,6 +9,13 @@ body {
 
 /* Logo */
 
+.conteiner {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  margin: auto;
+}
 .logo {
   color: #000;
 
@@ -19,6 +26,7 @@ body {
   line-height: 1.1923;
   color: #2196f3;
   text-decoration: none;
+  padding-left: 215px;
 }
 
 .text-studio {
@@ -33,7 +41,10 @@ body {
 
 .header-nav {
   list-style: none;
+  display: flex;
+  gap: 50px;
 }
+
 
 .header-nav a {
 
@@ -42,6 +53,7 @@ body {
   line-height: 1.1428;
   color: #212121;
   text-decoration: none;
+ 
 }
 
 .header-nav-links:hover,
@@ -59,6 +71,7 @@ body {
 .contacts {
   list-style: none;
   font-style: normal;
+  display: flex;
 }
 
 .contact {
@@ -71,6 +84,8 @@ body {
   color: #757575;
 
   text-decoration: none;
+  margin-left: 50px;
+  padding-right: 215px;
 }
 
 .mailto {
@@ -128,6 +143,7 @@ body {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 /*our strong sides*/
@@ -275,8 +291,11 @@ body {
 
 /*---Maine---*/
 
+
+
 .portfolio-nav {
   list-style: none;
+  display: flex;
 }
 
 .portfolio-nav-btn {
@@ -302,6 +321,7 @@ body {
 
 .portfolio-list-photo {
   list-style: none;
+  
 }
 
 .portfolio-list-photo h3 {

@@ -11,34 +11,44 @@
    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
    rel="stylesheet"
   />
+  <link
+   rel="stylesheet"
+   href="node_modules/modern-normalize/modern-normalize.css"
+  />
 
   <title>Студія</title>
  </head>
 
  <body>
   <header class="header">
-   <nav>
+   <div class="conteiner">
     <a class="logo" href=""> Web<span class="text-studio">Studio</span> </a>
-    <ul class="header-nav">
-     <li><a class="header-nav-links" href="./index.html">Студія</a></li>
-     <li><a class="header-nav-links" href="./portfolio.html">Портфоліо</a></li>
-     <li><a class="header-nav-links" href="">Контакти</a></li>
+    <nav class="navigation">
+     <ul class="header-nav">
+      <li><a class="header-nav-links" href="./index.html">Студія</a></li>
+      <li><a class="header-nav-links" href="./portfolio.html">Портфоліо</a></li>
+      <li><a class="header-nav-links" href="">Контакти</a></li>
+     </ul>
+    </nav>
+
+    <ul class="contacts">
+     <li>
+      <a class="mailto" href="mailto:info@devstudio.com">
+       info@devstudio.com
+      </a>
+     </li>
+     <li>
+      <a class="contact" href="tel:+380961111111">+38 096 111 11 11</a>
+     </li>
     </ul>
-   </nav>
-   <ul class="contacts">
-    <li>
-     <a class="mailto" href="mailto:info@devstudio.com"> info@devstudio.com </a>
-    </li>
-    <li>
-     <a class="contact" href="tel:+380961111111">+38 096 111 11 11</a>
-    </li>
-   </ul>
+   </div>
   </header>
   <main>
    <div class="hero">
     <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
     <button class="hero-btm" type="button">Замовити послугу</button>
    </div>
+
    <section>
     <h2 hidden>наші переваги</h2>
     <ul class="strongsides">
@@ -50,7 +60,7 @@
       </p>
      </li>
      <li>
-      <h3 class="strongsides-title" >ПУНКТУАЛЬНІСТЬ</h3>
+      <h3 class="strongsides-title">ПУНКТУАЛЬНІСТЬ</h3>
       <p class="strongsides-text">
        Завдання організації, особливо рамки і місце навчання кадрів тягне у
        себе.
@@ -58,7 +68,9 @@
      </li>
      <li>
       <h3 class="strongsides-title">ПЛАНУВАННЯ</h3>
-      <p class="strongsides-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+      <p class="strongsides-text">
+       Так само консультація з широким активом значною мірою зумовлює.
+      </p>
      </li>
      <li>
       <h3 class="strongsides-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
