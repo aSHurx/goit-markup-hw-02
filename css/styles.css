@@ -4,6 +4,7 @@ body {
  font-family: "Roboto", sans-serif;
  font-weight: 700;
  margin: 0;
+ width: 1600px;
 }
 
 /*-----HEADER-----*/
@@ -14,9 +15,7 @@ body {
  display: flex;
  align-items: center;
 }
-.navigation {
- margin: auto;
-}
+
 .logo {
  color: #000;
 
@@ -68,6 +67,7 @@ body {
  list-style: none;
  font-style: normal;
  display: flex;
+ margin-left: 344px;
 }
 
 .contact {
@@ -80,8 +80,6 @@ body {
 
  text-decoration: none;
  margin-left: 50px;
- padding-right: 215px;
- padding-left: 215px;
 }
 
 .mailto {
@@ -104,25 +102,19 @@ body {
 
 /*---MAIN---*/
 
-
-
 /*HERO*/
 
 .hero {
  background-color: #2f303a;
- 
- 
+
  width: 1600px;
  height: 600px;
- 
-
 }
 
 .hero-title {
  font-weight: 900;
  font-size: 44px;
  line-height: 1.3636;
-  
 
  letter-spacing: 0.06em;
  text-transform: uppercase;
@@ -131,18 +123,14 @@ body {
  padding-left: 452px;
  padding-right: 452px;
  padding-top: 200px;
- 
- text-align: center;
 
- 
+ text-align: center;
 }
 
 .hero-btm {
  font-size: 16px;
  line-height: 1.875;
- 
 
- 
  align-items: center;
  text-align: center;
  letter-spacing: 0.06em;
@@ -156,26 +144,24 @@ body {
  margin-left: 692px;
  width: 216px;
  height: 50px;
- 
- 
- 
-
-
 }
-
 
 /*our strong sides*/
-.strongsides{
-  list-style: none;
-  padding-top: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
-  display: flex;
-  
-  gap: 30px;
+.strongsides {
+ list-style: none;
+ padding-top: 94px;
+ padding-left: 215px;
+ padding-right: 215px;
+
+ padding-bottom: 118px;
+ display: flex;
+
+ gap: 30px;
 }
 
-
+.strongsides-list {
+ width: calc((100%-90px) / 4);
+}
 
 .strongsides h3 {
  font-size: 14px;
@@ -200,7 +186,6 @@ body {
 }
 /*our activities*/
 .activites {
-
 }
 
 .title-activites {
@@ -211,7 +196,9 @@ body {
 
  color: #212121;
  text-align: center;
- padding-top: 118px;
+
+ padding-left: calc(617-215) px;
+
  padding-bottom: 50px;
 }
 
@@ -219,7 +206,8 @@ body {
  list-style: none;
  display: flex;
  gap: 30px;
- margin-right: 215px;
+ padding-left: 215px;
+ padding-right: 215px;
 }
 
 /*____our team_____*/
@@ -231,10 +219,17 @@ body {
  letter-spacing: 0.03em;
 
  color: #212121;
+ padding-top: 94px;
+ padding-bottom: 50px;
+ padding-left: 668px;
 }
 
 .list-team {
  list-style: none;
+ display: flex;
+ gap: 30px;
+ padding-left: 215px;
+ padding-right: 215px;
 }
 
 .list-team h3 {
@@ -255,6 +250,7 @@ body {
  letter-spacing: 0.03em;
 
  color: #757575;
+ padding-bottom: 94;
 }
 .igor:hover,
 .olga:hover,
@@ -263,10 +259,39 @@ body {
  color: #2196f3;
 }
 
+.igor {
+ padding-top: 30px;
+ padding-bottom: 10px;
+ text-align: center;
+}
+.olga {
+ padding-top: 30px;
+ padding-bottom: 10px;
+ text-align: center;
+}
+.mykola {
+ padding-top: 30px;
+ padding-bottom: 10px;
+ text-align: center;
+}
+.myhailo {
+ padding-top: 30px;
+ padding-bottom: 10px;
+ text-align: center;
+}
+
+
+.job-position {
+ padding-bottom: 30px;
+ text-align: center;
+}
+
 /*----FOOTER----*/
 
 .footer {
  background-color: #2f303a;
+ width: 1600px;
+ 
 }
 
 .footer-logo {
@@ -277,8 +302,14 @@ body {
  line-height: 1.1923;
 
  letter-spacing: 0.03em;
+ width: 145px;
+ height: 31px;
 
  color: #2196f3;
+ text-decoration: none;
+ padding-top: 60px;
+ padding-bottom: 20px;
+ padding-left: 215px;
 }
 
 .footer-text-studio {
@@ -299,7 +330,26 @@ body {
 
  color: #ffffff;
  text-decoration: none;
+ margin-left: 0px;
+
 }
+.footer-contacts {
+  display: block;
+  margin-left: 180px;
+  
+  
+}
+.footer-contact {
+  margin-left: 0px;
+  padding-bottom: 9px;
+}
+
+.footer-conteiner{
+  margin: 0px;
+ 
+  
+}
+
 
 /*---------------PORTFOLIO-----------------*/
 
