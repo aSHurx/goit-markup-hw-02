@@ -280,7 +280,6 @@ body {
  text-align: center;
 }
 
-
 .job-position {
  padding-bottom: 30px;
  text-align: center;
@@ -291,7 +290,7 @@ body {
 .footer {
  background-color: #2f303a;
  width: 1600px;
- 
+ height: 252px;
 }
 
 .footer-logo {
@@ -331,25 +330,24 @@ body {
  color: #ffffff;
  text-decoration: none;
  margin-left: 0px;
-
 }
 .footer-contacts {
-  display: block;
-  margin-left: 180px;
-  
-  
+ display: block;
+ margin-left: 180px;
+ padding-top: 20px;
 }
+.footer-mailto {
+ padding-bottom: 29px;
+}
+
 .footer-contact {
-  margin-left: 0px;
-  padding-bottom: 9px;
+ margin-left: 0px;
 }
 
-.footer-conteiner{
-  margin: 0px;
- 
-  
+.footer-conteiner {
+ margin: 0px;
+ padding-top: 60px;
 }
-
 
 /*---------------PORTFOLIO-----------------*/
 
