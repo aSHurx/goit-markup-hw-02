@@ -1,32 +1,57 @@
+:root {
+  --premier-text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --accent-font: "Raleway", sans-serif;
+  --background-color: #2f303a;
+  
+}
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 /* ---Studio---*/
 
 body {
  font-family: "Roboto", sans-serif;
  font-weight: 700;
  margin: 0;
- width: 1600px;
+ 
 }
 
-/*-----HEADER-----*/
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+  
+}
+/*--------------HEADER---------------*/
 
 /* Logo */
 
-.conteiner {
- display: flex;
- align-items: center;
+.header-wrap{ 
+  display: flex;
+
 }
 
 .logo {
- color: #000;
-
- font-family: "Raleway";
+ color: #000000;
+ font-family: var(--accent-font);
  font-style: normal;
  font-weight: 700;
  font-size: 26px;
  line-height: 1.1923;
- color: #2196f3;
+ color: var(--accent-color);
  text-decoration: none;
- padding-left: 215px;
+ padding-left: 15px;
+ padding-top: 24px;
+ padding-bottom: 25px;
 }
 
 .text-studio {
@@ -41,6 +66,8 @@ body {
  list-style: none;
  display: flex;
  gap: 50px;
+margin-left: 93px;
+padding-top: 32px;
 }
 
 .header-nav a {
@@ -54,7 +81,7 @@ body {
 .header-nav-links:hover,
 .header-nav-links:focus,
 .header-nav-links.current {
- color: #2196f3;
+ color: var(--accent-color);
 }
 
 .header-nav-links:active {
@@ -68,6 +95,9 @@ body {
  font-style: normal;
  display: flex;
  margin-left: 344px;
+ padding-top: 32px;
+ gap: 50px;
+ 
 }
 
 .contact {
@@ -76,18 +106,18 @@ body {
  line-height: 1.1428x;
  letter-spacing: 0.02em;
 
- color: #757575;
+ color: var(--premier-text-color);
 
  text-decoration: none;
- margin-left: 50px;
+
 }
 
-.mailto {
+.contact {
  font-weight: 500;
  font-size: 14px;
  line-height: 1.1428;
  letter-spacing: 0.02em;
- color: #757575;
+ color: var(--premier-text-color);
 
  text-decoration: none;
 }
@@ -105,12 +135,13 @@ body {
 /*HERO*/
 
 .hero {
- background-color: #2f303a;
-
- width: 1600px;
- height: 600px;
+ background-color: var(--background-color);
 }
+ .hero-container {
+  margin: 200px, 452px, 280px, 452px;
 
+
+ }
 .hero-title {
  font-weight: 900;
  font-size: 44px;
@@ -120,19 +151,31 @@ body {
  text-transform: uppercase;
 
  color: #ffffff;
- padding-left: 452px;
- padding-right: 452px;
- padding-top: 200px;
+ 
 
  text-align: center;
+ padding-top: 200px;
+ 
+ padding-left: 252px;
+ padding-right: 252px;
+ margin-bottom: 30px;
+
 }
 
+.hero-button {
+  padding-left: 492px;
+  padding-bottom: 200px;
+
+
+}
+ 
 .hero-btm {
+ font-weight: 700;
  font-size: 16px;
  line-height: 1.875;
+ display: block;
 
- align-items: center;
- text-align: center;
+ 
  letter-spacing: 0.06em;
 
  color: #ffffff;
@@ -141,21 +184,22 @@ body {
  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
  border-radius: 4px;
  cursor: pointer;
- margin-left: 692px;
+ 
  width: 216px;
- height: 50px;
+ height: 4.32;
 }
 
-/*our strong sides*/
+/*------our strong sides------*/
+
+
 .strongsides {
+ display: flex;
  list-style: none;
  padding-top: 94px;
- padding-left: 215px;
- padding-right: 215px;
+ padding-left: 15px;
+ padding-right: 15px;
 
- padding-bottom: 118px;
- display: flex;
-
+ 
  gap: 30px;
 }
 
@@ -165,7 +209,7 @@ body {
 
 .strongsides h3 {
  font-size: 14px;
- line-height: 16px;
+ line-height: 1.14;
  letter-spacing: 0.03em;
  text-transform: uppercase;
 
@@ -179,7 +223,7 @@ body {
 
  letter-spacing: 0.03em;
 
- color: #757575;
+ color: var(--premier-text-color);
 }
 .strongsides-title:hover {
  color: #2196f3;
@@ -194,11 +238,10 @@ body {
 
  letter-spacing: 0.03em;
 
- color: #212121;
+ color: var(--title-color);
  text-align: center;
-
- padding-left: calc(617-215) px;
-
+ padding-top: 94px;
+ padding-left: 417 px;
  padding-bottom: 50px;
 }
 
@@ -206,8 +249,8 @@ body {
  list-style: none;
  display: flex;
  gap: 30px;
- padding-left: 215px;
- padding-right: 215px;
+ padding-left: 15px;
+ padding-right: 15px;
 }
 
 /*____our team_____*/
@@ -218,18 +261,18 @@ body {
 
  letter-spacing: 0.03em;
 
- color: #212121;
+ color: var(--title-color);
  padding-top: 94px;
  padding-bottom: 50px;
- padding-left: 668px;
+ padding-left: 468px;
 }
 
 .list-team {
  list-style: none;
  display: flex;
  gap: 30px;
- padding-left: 215px;
- padding-right: 215px;
+ padding-left: 15px;
+ padding-right: 15px;
 }
 
 .list-team h3 {
@@ -249,7 +292,7 @@ body {
 
  letter-spacing: 0.03em;
 
- color: #757575;
+ color: var(--premier-text-color);
  padding-bottom: 94;
 }
 .igor:hover,
@@ -288,9 +331,14 @@ body {
 /*----FOOTER----*/
 
 .footer {
- background-color: #2f303a;
- width: 1600px;
- height: 252px;
+ background-color: var(--background-color);
+ display: flex;
+ 
+}
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+ 
 }
 
 .footer-logo {
@@ -304,11 +352,11 @@ body {
  width: 145px;
  height: 31px;
 
- color: #2196f3;
+ color: var(--accent-color);
  text-decoration: none;
+;
+ padding-left: 15px;
  padding-top: 60px;
- padding-bottom: 20px;
- padding-left: 215px;
 }
 
 .footer-text-studio {
@@ -320,7 +368,8 @@ body {
 }
 
 .footer-nav-adress {
- font-style: normal;
+  font-style: normal;
+
  font-weight: 400;
  font-size: 14px;
  line-height: 1.714;
@@ -329,33 +378,51 @@ body {
 
  color: #ffffff;
  text-decoration: none;
- margin-left: 0px;
+ 
 }
 .footer-contacts {
  display: block;
- margin-left: 180px;
+ margin-left: 15px;
  padding-top: 20px;
+ padding-bottom: 60px;
+
+ 
 }
-.footer-mailto {
- padding-bottom: 29px;
-}
+
 
 .footer-contact {
- margin-left: 0px;
+ font-weight: 400;
+ font-style: normal;
+ text-decoration: none;
+ 
+ color: rgba(255, 255, 255, 0.6);
+ 
 }
 
-.footer-conteiner {
- margin: 0px;
- padding-top: 60px;
+.footer-mailto {
+  display: inline-block;
+  padding-bottom: 9px;
+  padding-top: 9px;
+  
+  width: 231px;
+  height: 21px;
+
+  
 }
 
 /*---------------PORTFOLIO-----------------*/
 
 /*---Maine---*/
 
+
+
+
 .portfolio-nav {
  list-style: none;
  display: flex;
+ gap: 8px;
+ margin-left:312px ;
+ padding-top: 100px;
 }
 
 .portfolio-nav-btn {
@@ -367,6 +434,11 @@ body {
  letter-spacing: 0.03em;
  color: #212121;
  background: #f5f4fa;
+ cursor: pointer;
+ border: none;
+ border-radius: 4px;
+ padding: 22px,6px;
+ 
 }
 
 .portfolio-nav-btn:hover,
@@ -379,17 +451,26 @@ body {
  color: #ffffff;
 }
 
+
+
 .portfolio-list-photo {
  list-style: none;
+ display: flex;
+ margin-top: 50px;
+
+  flex-wrap: wrap;
+  gap: 30px;
+ 
+
 }
 
-.portfolio-list-photo h3 {
+.portfolio-list-photo h2 {
  font-weight: 700;
  font-size: 18px;
  line-height: 2;
  letter-spacing: 0.06em;
 
- color: #212121;
+ color: var(--title-color);
 }
 
 .portfolio-list-photo p {
@@ -399,7 +480,7 @@ body {
 
  letter-spacing: 0.03em;
 
- color: #757575;
+ color: var(--premier-text-color);
 }
 .portfolio-titles:hover {
  color: #2196f3;
