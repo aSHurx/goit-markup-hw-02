@@ -1,18 +1,23 @@
 :root {
-  --premier-text-color: #757575;
-  --title-color: #212121;
-  --accent-color: #2196f3;
-  --accent-font: "Raleway", sans-serif;
-  --background-color: #2f303a;
-  
+ --premier-text-color: #757575;
+ --title-color: #212121;
+ --accent-color: #2196f3;
+ --accent-font: "Raleway", sans-serif;
+ --background-color: #2f303a;
 }
-h1,h2,h3,h4,h5,h6,p {
-  margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+ margin: 0;
 }
-ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
+ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
 }
 /* ---Studio---*/
 
@@ -20,24 +25,20 @@ body {
  font-family: "Roboto", sans-serif;
  font-weight: 700;
  margin: 0;
- 
 }
 
 .container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  outline: 2px solid red;
-  
+ width: 1200px;
+ padding-left: 15px;
+ padding-right: 15px;
+ margin: 0 auto;
 }
 /*--------------HEADER---------------*/
 
 /* Logo */
 
-.header-wrap{ 
-  display: flex;
-
+.header-wrap {
+ display: flex;
 }
 
 .logo {
@@ -66,8 +67,8 @@ body {
  list-style: none;
  display: flex;
  gap: 50px;
-margin-left: 93px;
-padding-top: 32px;
+ margin-left: 93px;
+ padding-top: 32px;
 }
 
 .header-nav a {
@@ -97,7 +98,6 @@ padding-top: 32px;
  margin-left: 344px;
  padding-top: 32px;
  gap: 50px;
- 
 }
 
 .contact {
@@ -109,7 +109,6 @@ padding-top: 32px;
  color: var(--premier-text-color);
 
  text-decoration: none;
-
 }
 
 .contact {
@@ -137,11 +136,9 @@ padding-top: 32px;
 .hero {
  background-color: var(--background-color);
 }
- .hero-container {
-  margin: 200px, 452px, 280px, 452px;
-
-
- }
+.hero-container {
+ margin: 200px, 452px, 280px, 452px;
+}
 .hero-title {
  font-weight: 900;
  font-size: 44px;
@@ -151,31 +148,26 @@ padding-top: 32px;
  text-transform: uppercase;
 
  color: #ffffff;
- 
 
  text-align: center;
  padding-top: 200px;
- 
+
  padding-left: 252px;
  padding-right: 252px;
  margin-bottom: 30px;
-
 }
 
 .hero-button {
-  padding-left: 492px;
-  padding-bottom: 200px;
-
-
+ padding-left: 492px;
+ padding-bottom: 200px;
 }
- 
+
 .hero-btm {
  font-weight: 700;
  font-size: 16px;
  line-height: 1.875;
  display: block;
 
- 
  letter-spacing: 0.06em;
 
  color: #ffffff;
@@ -184,13 +176,12 @@ padding-top: 32px;
  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
  border-radius: 4px;
  cursor: pointer;
- 
+
  width: 216px;
  height: 4.32;
 }
 
 /*------our strong sides------*/
-
 
 .strongsides {
  display: flex;
@@ -199,7 +190,6 @@ padding-top: 32px;
  padding-left: 15px;
  padding-right: 15px;
 
- 
  gap: 30px;
 }
 
@@ -333,12 +323,10 @@ padding-top: 32px;
 .footer {
  background-color: var(--background-color);
  display: flex;
- 
 }
 .footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
- 
+ padding-top: 60px;
+ padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -354,7 +342,6 @@ padding-top: 32px;
 
  color: var(--accent-color);
  text-decoration: none;
-;
  padding-left: 15px;
  padding-top: 60px;
 }
@@ -368,7 +355,7 @@ padding-top: 32px;
 }
 
 .footer-nav-adress {
-  font-style: normal;
+ font-style: normal;
 
  font-weight: 400;
  font-size: 14px;
@@ -378,50 +365,40 @@ padding-top: 32px;
 
  color: #ffffff;
  text-decoration: none;
- 
 }
 .footer-contacts {
  display: block;
  margin-left: 15px;
  padding-top: 20px;
  padding-bottom: 60px;
-
- 
 }
-
 
 .footer-contact {
  font-weight: 400;
  font-style: normal;
  text-decoration: none;
- 
+
  color: rgba(255, 255, 255, 0.6);
- 
 }
 
 .footer-mailto {
-  display: inline-block;
-  padding-bottom: 9px;
-  padding-top: 9px;
-  
-  width: 231px;
-  height: 21px;
+ display: inline-block;
+ padding-bottom: 9px;
+ padding-top: 9px;
 
-  
+ width: 231px;
+ height: 21px;
 }
 
 /*---------------PORTFOLIO-----------------*/
 
 /*---Maine---*/
 
-
-
-
 .portfolio-nav {
  list-style: none;
  display: flex;
  gap: 8px;
- margin-left:312px ;
+ margin-left: 312px;
  padding-top: 100px;
 }
 
@@ -437,8 +414,7 @@ padding-top: 32px;
  cursor: pointer;
  border: none;
  border-radius: 4px;
- padding: 22px,6px;
- 
+ padding: 22px, 6px;
 }
 
 .portfolio-nav-btn:hover,
@@ -451,17 +427,13 @@ padding-top: 32px;
  color: #ffffff;
 }
 
-
-
 .portfolio-list-photo {
  list-style: none;
  display: flex;
  margin-top: 50px;
 
-  flex-wrap: wrap;
-  gap: 30px;
- 
-
+ flex-wrap: wrap;
+ gap: 30px;
 }
 
 .portfolio-list-photo h2 {
