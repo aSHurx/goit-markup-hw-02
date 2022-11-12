@@ -21,7 +21,7 @@
 
  <body>
   <header class="header">
-   <div class="conteiner">
+   <div class="container header-wrap">
     <a class="logo" href=""> Web<span class="text-studio">Studio</span> </a>
     <nav class="navigation">
      <ul class="header-nav">
@@ -33,9 +33,7 @@
 
     <ul class="contacts">
      <li>
-      <a class="mailto" href="mailto:info@devstudio.com">
-       info@devstudio.com
-      </a>
+      <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
      </li>
      <li>
       <a class="contact" href="tel:+380961111111">+38 096 111 11 11</a>
@@ -43,57 +41,66 @@
     </ul>
    </div>
   </header>
-  <main class="main">
-   <div class="hero">
-    <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-    <button class="hero-btm" type="button">Замовити послугу</button>
+
+  <main>
+   <section class="hero">
+    <div class="container hero-container">
+     <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+     <div class="hero-button">
+      <button class="hero-btm" type="button">Замовити послугу</button>
+     </div>
+    </div>
+   </section>
+
+   <div class="container">
+    <section class="our-strongs">
+     <h2 hidden>наші переваги</h2>
+     <div class="strongs-wrap">
+     <ul class="strongsides items">
+      <li class="strongsides-list">
+       <h3 class="strongsides-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+       <p class="strongsides-text">
+        Ідейні міркування, і навіть початок повсякденної роботи з формування
+        позиції.
+       </p>
+      </li>
+      <li class="strongsides-list">
+       <h3 class="strongsides-title">ПУНКТУАЛЬНІСТЬ</h3>
+       <p class="strongsides-text">
+        Завдання організації, особливо рамки і місце навчання кадрів тягне у
+        себе.
+       </p>
+      </li>
+      <li class="strongsides-list">
+       <h3 class="strongsides-title">ПЛАНУВАННЯ</h3>
+       <p class="strongsides-text">
+        Так само консультація з широким активом значною мірою зумовлює.
+       </p>
+      </li>
+      <li class="strongsides-list">
+       <h3 class="strongsides-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+       <p class="strongsides-texte">
+        Значимість цих проблем настільки очевидна, що реалізація планових
+        завдань.
+       </p>
+      </li>
+     </ul>
+    </div>
+    </section>
    </div>
 
-   <div class="strongsides-conteiner">
-    <h2 hidden>наші переваги</h2>
-    <ul class="strongsides">
-     <li class="strongsides-list">
-      <h3 class="strongsides-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-      <p class="strongsides-text">
-       Ідейні міркування, і навіть початок повсякденної роботи з формування
-       позиції.
-      </p>
-     </li>
-     <li class="strongsides-list">
-      <h3 class="strongsides-title">ПУНКТУАЛЬНІСТЬ</h3>
-      <p class="strongsides-text">
-       Завдання організації, особливо рамки і місце навчання кадрів тягне у
-       себе.
-      </p>
-     </li>
-     <li class="strongsides-list">
-      <h3 class="strongsides-title">ПЛАНУВАННЯ</h3>
-      <p class="strongsides-text">
-       Так само консультація з широким активом значною мірою зумовлює.
-      </p>
-     </li>
-     <li class="strongsides-list">
-      <h3 class="strongsides-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-      <p class="strongsides-texte">
-       Значимість цих проблем настільки очевидна, що реалізація планових
-       завдань.
-      </p>
-     </li>
-    </ul>
-   </div>
-   <section class="">
+   <div class="container">
     <h2 class="title-activites">Чим ми займаємося</h2>
     <ul class="pictures-activites">
      <li><img src="./images/img1.jpeg" width="370" alt="picture" /></li>
      <li><img src="./images/img2.jpeg" width="370" alt="picture" /></li>
      <li><img src="./images/img3.jpeg" width="370" alt="picture" /></li>
     </ul>
-   </section>
+   </div>
+   <div class="container">
+    <h2 class="title-team">Наша команда</h2>
 
-   <h2 class="title-team">Наша команда</h2>
-
-   <section>
-    <ul class="list-team">
+    <ul class="studio-team">
      <li class="team-list">
       <img src="./images/Igor.jpeg" width="270" alt="photo" />
       <h3 class="igor">Ігор Дем'яненко</h3>
@@ -119,38 +126,41 @@
       <p class="job-position">UI Designer</p>
      </li>
     </ul>
-   </section>
+   </div>
   </main>
 
   <footer class="footer">
-   <div class="footer-conteiner">
-    <a class="footer-logo" href="">
-     Web<span class="footer-text-studio">Studio</span></a
-    >
-    <address>
-     <ul class="contacts footer-contacts">
-      <li>
-       <a
-        class="footer-nav-adress"
-        href="http://goo.gl/maps/p8WhcWwkBDJUdivu5"
-        target="_blank"
-        rel="noopener noreferrer"
-        >м. Київ, пр-т Лесі Українки, 26
-       </a>
-      </li>
-      <li>
-       <a class="mailto footer-mailto" href="mailto:info@devstudio.com">
-        info@devstudio.com
-       </a>
-      </li>
-      <li>
-       <a class="contact footer-contact" href="tel:+380961111111"
-        >+38 096 111 11 11</a
-       >
-      </li>
-     </ul>
-    </address>
-   </div>
-  </footer>
+    <div class="container footer-container">
+     <a class="footer-logo" href="">
+      Web<span class="footer-text-studio">Studio</span></a
+     >
+     <address>
+      <ul class="contacts footer-contacts">
+       <li>
+        <a
+         class="footer-nav-adress"
+         href="http://goo.gl/maps/p8WhcWwkBDJUdivu5"
+         target="_blank"
+         rel="noopener noreferrer"
+         >м. Київ, пр-т Лесі Українки, 26
+        </a>
+       </li>
+       <li>
+        <a
+         class="contact footer-contact footer-mailto"
+         href="mailto:info@devstudio.com"
+        >
+         info@devstudio.com
+        </a>
+       </li>
+       <li>
+        <a class="contact footer-contact footer-phone" href="tel:+380961111111"
+         >+38 096 111 11 11</a
+        >
+       </li>
+      </ul>
+     </address>
+    </div>
+   </footer>
  </body>
 </html>
