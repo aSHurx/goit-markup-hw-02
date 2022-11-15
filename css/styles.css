@@ -4,6 +4,7 @@
  --accent-color: #2196f3;
  --accent-font: "Raleway", sans-serif;
  --background-color: #2f303a;
+ --background-color-second: #ffffff;
 }
 h1,
 h2,
@@ -19,7 +20,7 @@ ul {
  margin: 0;
  padding: 0;
 }
-/* ---Studio---*/
+/* --------STUDIO-------*/
 
 body {
  font-family: "Roboto", sans-serif;
@@ -33,9 +34,9 @@ body {
  padding-right: 15px;
  margin: 0 auto;
 }
-/*--------------HEADER---------------*/
+/*------------------HEADER-------------------*/
 
-/* Logo */
+/* ==Logo== */
 
 .header-wrap {
  display: flex;
@@ -61,7 +62,7 @@ body {
  color: #000;
 }
 
-/* Navigation */
+/* ==Navigation== */
 
 .header-nav {
  list-style: none;
@@ -89,7 +90,7 @@ body {
  color: #000;
 }
 
-/* Header Contacts */
+/* ==Header Contacts== */
 
 .contacts {
  list-style: none;
@@ -111,27 +112,17 @@ body {
  text-decoration: none;
 }
 
-.contact {
- font-weight: 500;
- font-size: 14px;
- line-height: 1.1428;
- letter-spacing: 0.02em;
- color: var(--premier-text-color);
-
- text-decoration: none;
-}
-
 .contact:hover {
- color: #2196f3;
+ color: var(--accent-color);
 }
 
 .mailto:hover {
- color: #2196f3;
+ color: var(--accent-color);
 }
 
-/*---MAIN---*/
+/*================MAIN=================*/
 
-/*HERO*/
+/*-------------HERO------------*/
 
 .hero {
  background-color: var(--background-color);
@@ -147,7 +138,7 @@ body {
  letter-spacing: 0.06em;
  text-transform: uppercase;
 
- color: #ffffff;
+ color: var(--background-color-second);
 
  text-align: center;
  padding-top: 200px;
@@ -170,9 +161,9 @@ body {
 
  letter-spacing: 0.06em;
 
- color: #ffffff;
+ color: var(--background-color-second);
 
- background: #2196f3;
+ background: var(--accent-color);
  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
  border-radius: 4px;
  cursor: pointer;
@@ -216,7 +207,7 @@ body {
  color: var(--premier-text-color);
 }
 .strongsides-title:hover {
- color: #2196f3;
+ color: var(--accent-color);
 }
 /*our activities*/
 .activites {
@@ -263,6 +254,13 @@ body {
  gap: 30px;
  padding-left: 15px;
  padding-right: 15px;
+ padding-bottom: 94px;
+}
+
+.team-list {
+ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+ border-radius: 0px 0px 4px 4px;
 }
 
 .list-team h3 {
@@ -289,31 +287,66 @@ body {
 .olga:hover,
 .mykola:hover,
 .myhailo:hover {
- color: #2196f3;
+ color: var(--accent-color);
 }
 
 .igor {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.1875;
+
+ letter-spacing: 0.03em;
+
+ color: #212121;
  padding-top: 30px;
  padding-bottom: 10px;
  text-align: center;
 }
 .olga {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.1875;
+
+ letter-spacing: 0.03em;
+
+ color: #212121;
  padding-top: 30px;
  padding-bottom: 10px;
  text-align: center;
 }
 .mykola {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.1875;
+
+ letter-spacing: 0.03em;
+
+ color: #212121;
  padding-top: 30px;
  padding-bottom: 10px;
  text-align: center;
 }
 .myhailo {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.1875;
+
+ letter-spacing: 0.03em;
+
+ color: #212121;
  padding-top: 30px;
  padding-bottom: 10px;
  text-align: center;
 }
 
 .job-position {
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.1875;
+
+ letter-spacing: 0.03em;
+
+ color: var(--premier-text-color);
  padding-bottom: 30px;
  text-align: center;
 }
@@ -347,7 +380,7 @@ body {
 }
 
 .footer-text-studio {
- color: #ffffff;
+ color: var(--background-color-second);
 }
 
 .footer-nav {
@@ -363,11 +396,16 @@ body {
 
  letter-spacing: 0.03em;
 
- color: #ffffff;
+ color: var(--background-color-second);
  text-decoration: none;
 }
+.footer-nav-adress:hover {
+ color: var(--accent-color);
+}
+
 .footer-contacts {
  display: block;
+
  margin-left: 15px;
  padding-top: 20px;
  padding-bottom: 60px;
@@ -382,6 +420,7 @@ body {
 }
 
 .footer-mailto {
+ font-weight: 400;
  display: inline-block;
  padding-bottom: 9px;
  padding-top: 9px;
@@ -419,12 +458,12 @@ body {
 
 .portfolio-nav-btn:hover,
 .portfolio-nav-btn:focus {
- color: #ffffff;
- background: #2196f3;
+ color: var(--background-color-second);
+ background: var(--accent-color);
 }
 
 .portfolio-nav-btn:active {
- color: #ffffff;
+ color: var(--background-color-second);
 }
 
 .portfolio-list-photo {
@@ -455,5 +494,5 @@ body {
  color: var(--premier-text-color);
 }
 .portfolio-titles:hover {
- color: #2196f3;
+ color: var(--accent-color);
 }
